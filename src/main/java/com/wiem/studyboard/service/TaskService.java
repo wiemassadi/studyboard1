@@ -34,7 +34,7 @@ public class TaskService {
     public static TaskService withSampleData() {
         TaskService service = new TaskService();
         LocalDate today = LocalDate.now();
-        service.add("Review chapter 3 of Networks", "Course", today.plusDays(2));
+        service.add("Review chapter 2 of Management", "Course", today.plusDays(2));
         service.add("Finish the Docker lab", "Lab", today.plusDays(4));
         service.add("Prepare the CI/CD project demo", "Project", today.plusDays(7));
         return service;
